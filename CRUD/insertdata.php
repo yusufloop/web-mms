@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-<p><a href="index.html">Home page</a></p>
+    <form action="insert-data.php" method="post">
+        <input type="text">
+    </form>
 </body>
 </html>
