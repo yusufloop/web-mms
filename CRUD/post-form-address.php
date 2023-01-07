@@ -1,4 +1,8 @@
 <html>
+<?php
+    include 'dblink.php';
+
+?>
 <body>
 
 <form action="post-data-address.php" method="post">
@@ -14,6 +18,10 @@
     Address Line 2: <input type="text" name="address-line-2"><br>
 <input type="submit">
 </form>
+
+<?php
+        include 'footer.php';
+?>
 
 </body>
 </html>
