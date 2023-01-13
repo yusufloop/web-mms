@@ -1,0 +1,20 @@
+<?php
+include 'header.php';
+include 'navbar.php';
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "tbl_bmi";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully<br><hr>";
+
+?>
